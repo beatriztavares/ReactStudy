@@ -1,0 +1,55 @@
+body{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: white ;
+}
+
+.header{
+    min-height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 75vw;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid #96ceb4;
+}
+
+.video-item img{
+    max-width: 64px;
+}
+
+.video-detail .details{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #666 ;
+}
+
+.video-detail .details .detail-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.video-detail .details .detail-description{
+    font-size: 12px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    border: 1px solid #96ceb4;
+    color: #666;
+}
+
+.list-group-item:hover {
+    background-color: #ff6f69  ;
+    color: white;
+}
