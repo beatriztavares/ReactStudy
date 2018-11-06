@@ -9,6 +9,8 @@
 # production
 /build
 
+/ytk
+
 # misc
 .DS_Store
 .env.local
